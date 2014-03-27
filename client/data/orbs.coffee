@@ -5,7 +5,6 @@ module.exports = [
     header: "Paul"
     content: [
       React.DOM.p null, "My name is Paul Demchuk. I am just about finished my undergrad in Computer Science from the University of Victoria"
-      #React.DOM.img {src:"me.jpg", alt: "Paul"}
     ]
   }
   {
@@ -17,7 +16,7 @@ module.exports = [
         less out of this class if I was forced to write papers."
 
       React.DOM.p null, "I was a little worried initially when I found out that there was assigned readings, and group work. I do not typically work well in groups, because I prefer to start and finish assignments early - I am in the
-        minority of university students in this regard... :( In the end it worked out great though! I have been very satisfied with TS400."
+        minority of university students in this regard... :( In the end it worked out great though!"
     ]
   }
   {
@@ -30,7 +29,7 @@ module.exports = [
       React.DOM.p null, "The biggest thing for me was to make our game awesome! In the tech world, the only thing that matters is your portfolio.
         I wanted to make a game that I can show potential employers."
 
-      React.DOM.p null, "I do not actually have a portfolio yet. I would like to take this website, and turn it into my work portfolio."
+      React.DOM.p null, "Speaking of portfolios, I do not actually have one yet. I would like to take this website, and turn it into my work portfolio."
 
     ]
   }
@@ -55,7 +54,7 @@ module.exports = [
 
         React.DOM.p null, "This project gave me an opportunity to practice my web development. I wanted to come up with a
         way to present my book review that was both interactive and functional, since in the end of the day I needed to deliver all the content to you.
-        Fortunately you commented on the success of my delivery, since I was very proud of how it turned out.
+        Fortunately you commented on the success of my delivery, which was nice, because I was very proud of how it turned out.
         "
     ]
   }
@@ -64,19 +63,28 @@ module.exports = [
     header: "Presentation"
     content: [
       React.DOM.p null, "My presentation on Markdown and GitHub started out going well. I was really excited by my idea to live-demo Markdown and GitHub.
-      Unfortunately after a minute I noticed that I had lost some people, which made me stutter and lose confidence. As a result I was not happy with the quality of my
-      presentation. In the future I need to make sure I prepare the correct presentation for the audience."
+      Unfortunately after a minute I noticed that a lot of people weren't paying attention, which made me stutter and lose confidence. As a result I was not happy with the quality of my
+      presentation."
 
       React.DOM.p null, "I have only ever presented to peers who have a solid grounding in the topic that I am presenting on.
-      I guess my live-demo idea wasn't a very good way to get people interested."
+      I guess my live-demo idea wasn't a very good way of getting people interested. In the future I need to make sure I prepare the correct presentation for the audience."
     ]
   }
+
   {
     id: 7
     header: "Bunnies"
     content: [
       React.DOM.p null, "As soon as the final project was announced I knew that I wanted to make a game with Griffin. We have participated in a handful of game jams together, so this is what we wanted to do."
-      React.DOM.p null, "At times we regretted our decision to take on such a large project. We would essentially be writing a complete game from scratch, and were the only two tech leads. (fun)"
+      React.DOM.p null, "I am very happy with our decision to make a web based game. We got to use technologies that we have never used before, primarily the CreateJS framework. More than this, it makes our game accessible by anyone with an internet connection.
+      At times this has come back to bite us. We would essentially be writing a complete game from scratch, and were the only two tech leads. (fun)"
+      React.DOM.p null, "As of writing this, March 27th, our game is coming along swimmingly. The game engine is complete - all we need to do is get the content in."
+      React.DOM.p null, "The major problem was getting the rest of the group, save Griffin, interested. I am used to starting projects early, and putting in a lot of work (B's do not cut it for me). It may have just been a bit overwhelming for the rest of the group, but they did not seem overly motivated.
+      Although they seemed to be more interested towards the end, I would have preferred to be in a group with just Griffin."
+      React.DOM.p null,
+        "To try it out, "
+        React.DOM.a {href:"http://furreous.jit.su"}, "click here"
+        "."
     ]
   }
 
@@ -92,9 +100,72 @@ module.exports = [
 
   {
     id: 9
+    header: "The Future"
+    content: [
+      React.DOM.p null, "It became apparent to me, when I was in San Fransisco in Februrary, how much I rely on technology. I did not have a data plan, and as a result I felt pathetically helpless not being connected. What if I needed a map, wanted to call an Uber,
+      or even just wanted to check Facebook? Looking back I am pretty disapointed in myself for being so reliant on technology. Even though I am not happy with it, I know that there are people out there who are way more dependent than I am."
+
+      React.DOM.p null, "I remember a few months back when the iPhone developer I work with and I were out at lunch. There was a family at the table behind us, totally ignoring eachother while looking at their phones. We joked about how us, as developers enable this
+      behaviour. I can imagine developers being viewed in a different light in the future. Maybe we will become bad guys who ruin society with technology. :O"
+
+      React.DOM.p null, "In the future, I think two platforms will dominate: mobile and cloud based. Cloud based applications are becoming more prominent, and as computers/servers get more powerful, we will be able to do even more with them."
+
+
+    ]
+  }
+
+  {
+    id: 10
+    header: "Inception"
+    content: [
+      React.DOM.p null, "Writing about my Personal Learning Document in my Personal Learning Document. Whoa."
+      React.DOM.p null, "Creating this website has been beneficial for two reasons. First, it has made me think back on the semester, and critically assess what I have done. But it also gave me more experience in creating a website from scratch."
+      React.DOM.p null, "It is missing something, possibly images, but I need to figure out what it is before I use this as my porfolio."
+
+    ]
+  }
+
+  {
+    id: 11
+    header: ""
+    content: ""
+  }
+
+  {
+    id: 12
+    header: ""
+    content: ""
+  }
+
+  {
+    id: 13
     header: "Resources"
     content: [
-      React.DOM.p null, "# TODO"
+      React.DOM.p null, "Here are some of the resources that I used while making this page:"
+      React.DOM.p null,
+        React.DOM.a {href: "http://facebook.github.io/react/"}, "React"
+        " is a framework developed by Facebook to create user interfaces."
+
+      React.DOM.p null,
+        "As I mentioned in blog4, "
+        React.DOM.a {href: "http://stackoverflow.com/"}, "StackOverflow"
+        " is my go-to resource when I have a software development problem."
+
+      React.DOM.p null,
+        React.DOM.a {href: "http://brunch.io/"}, "Brunch"
+        " is an HTML5 project manager that increases my productivity tremendeously."
+
+      React.DOM.p null,
+        "Instead of JavaScript, I use "
+        React.DOM.a {href: "http://coffeescript.org/"}, "CoffeeScript"
+        " exclusively, for all projects. Check it out if you write JS."
+
+      React.DOM.p null,
+        "Finally, I have put this project on "
+        React.DOM.a {href:"https://github.com/toadums/learningdoc"}, "GitHub"
+        ", and also used GitHub's new text editor "
+        React.DOM.a {href:"https://atom.io/"}, "Atom"
+        " to write it!"
     ]
   }
 

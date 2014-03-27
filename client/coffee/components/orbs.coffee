@@ -43,7 +43,8 @@ module.exports = React.createClass
 
 
   orbClick: (id) ->
-    @setState active: id
+    if id?
+      @setState active: id
 
   contentSize: ->
     min = @upperWidthBound
