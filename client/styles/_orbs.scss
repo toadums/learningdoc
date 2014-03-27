@@ -61,6 +61,7 @@ $u4: #2BADDA;
     color: black;
     overflow: auto;
     word-wrap: normal;
+    z-index: 5;
     p {
 
       @include transition(opacity 0.5s ease-in);

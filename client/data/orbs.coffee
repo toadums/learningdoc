@@ -98,8 +98,20 @@ module.exports = [
     ]
   }
 
+
   {
     id: 9
+    header: "Inception"
+    content: [
+      React.DOM.p null, "Writing about my Personal Learning Document in my Personal Learning Document. Whoa."
+      React.DOM.p null, "Creating this website has been beneficial for two reasons. First, it has made me think back on the semester, and critically assess what I have done. But it also gave me more experience in creating a website from scratch."
+      React.DOM.p null, "It is missing something, possibly images. I need to figure out what it is before I use this as my porfolio."
+
+    ]
+  }
+
+  {
+    id: 10
     header: "The Future"
     content: [
       React.DOM.p null, "It became apparent to me, when I was in San Fransisco in Februrary, how much I rely on technology. I did not have a data plan, and as a result I felt pathetically helpless not being connected. What if I needed a map, wanted to call an Uber,
@@ -110,17 +122,6 @@ module.exports = [
 
       React.DOM.p null, "In the future, I think two platforms will dominate: mobile and cloud based. Cloud based applications are becoming more prominent, and as computers/servers get more powerful, we will be able to do even more with them."
 
-
-    ]
-  }
-
-  {
-    id: 10
-    header: "Inception"
-    content: [
-      React.DOM.p null, "Writing about my Personal Learning Document in my Personal Learning Document. Whoa."
-      React.DOM.p null, "Creating this website has been beneficial for two reasons. First, it has made me think back on the semester, and critically assess what I have done. But it also gave me more experience in creating a website from scratch."
-      React.DOM.p null, "It is missing something, possibly images, but I need to figure out what it is before I use this as my porfolio."
 
     ]
   }
